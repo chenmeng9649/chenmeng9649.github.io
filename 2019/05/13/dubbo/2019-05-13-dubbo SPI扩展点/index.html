@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | Hexo</title>
+  <title>SPI概述及dubbo中应用！ | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="SPI概念（service provider interface）SPI是jdk内置的一种服务提供发现机制。spi是动态替换发现的机制， 比如有个接口，想运行时动态的给它添加实现，你只需要添加一个实现。而SPI机制就是可以寻找某个服务实现。 Java SPI 实际上是“基于接口的编程＋策略模式＋配置文件”组合实现的动态加载机制。 Java SPI就是提供这样的一个机制：为某个接口寻找服务实现的机制">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SPI概述及dubbo中应用！">
+<meta property="og:url" content="http://yoursite.com/2019/05/13/dubbo/2019-05-13-dubbo SPI扩展点/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="SPI概念（service provider interface）SPI是jdk内置的一种服务提供发现机制。spi是动态替换发现的机制， 比如有个接口，想运行时动态的给它添加实现，你只需要添加一个实现。而SPI机制就是可以寻找某个服务实现。 Java SPI 实际上是“基于接口的编程＋策略模式＋配置文件”组合实现的动态加载机制。 Java SPI就是提供这样的一个机制：为某个接口寻找服务实现的机制">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-05-20T07:30:19.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="SPI概述及dubbo中应用！">
+<meta name="twitter:description" content="SPI概念（service provider interface）SPI是jdk内置的一种服务提供发现机制。spi是动态替换发现的机制， 比如有个接口，想运行时动态的给它添加实现，你只需要添加一个实现。而SPI机制就是可以寻找某个服务实现。 Java SPI 实际上是“基于接口的编程＋策略模式＋配置文件”组合实现的动态加载机制。 Java SPI就是提供这样的一个机制：为某个接口寻找服务实现的机制">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,216 +154,72 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-dubbo/2019-05-13-dubbo SPI扩展点" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/20/hello-world/" class="archive-article-date">
-  	<time datetime="2019-05-20T13:36:54.269Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-20</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/20/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      SPI概述及dubbo中应用！
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/20/java/2019-05-20-HashMap1.7和1.8对比/" class="archive-article-date">
-  	<time datetime="2019-05-20T05:05:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-20</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/20/java/2019-05-20-HashMap1.7和1.8对比/">HashMap1.7和1.8对比总结</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/基础//" class="article-tag-list-link color3">基础</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/20/java/2019-05-20-ConcurrentHashMap1.7和1.8对比/" class="archive-article-date">
-  	<time datetime="2019-05-20T05:05:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-20</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/20/java/2019-05-20-ConcurrentHashMap1.7和1.8对比/">ConcurrentHashMap1.7和1.8对比总结</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/基础//" class="article-tag-list-link color3">基础</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/14/java/2019-05-14-java11ZGC记录/" class="archive-article-date">
-  	<time datetime="2019-05-14T05:05:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-14</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/14/java/2019-05-14-java11ZGC记录/">java11 ZGC</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/GC//" class="article-tag-list-link color3">GC</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/14/java/2019-05-14-gc新生代晋升老年代总结/" class="archive-article-date">
-  	<time datetime="2019-05-14T05:05:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-14</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/14/java/2019-05-14-gc新生代晋升老年代总结/">gc过程新生代晋升老年代总结！</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/GC//" class="article-tag-list-link color3">GC</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/13/dubbo/2019-05-13-dubbo SPI扩展点/" class="archive-article-date">
+        
+        <a href="/2019/05/13/dubbo/2019-05-13-dubbo SPI扩展点/" class="archive-article-date">
   	<time datetime="2019-05-13T05:05:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-13</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/13/dubbo/2019-05-13-dubbo SPI扩展点/">SPI概述及dubbo中应用！</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="SPI概念（service-provider-interface）"><a href="#SPI概念（service-provider-interface）" class="headerlink" title="SPI概念（service provider interface）"></a>SPI概念（service provider interface）</h4><pre><code>SPI是jdk内置的一种服务提供发现机制。spi是动态替换发现的机制，
+比如有个接口，想运行时动态的给它添加实现，你只需要添加一个实现。而SPI机制就是可以寻找某个服务实现。
+Java SPI 实际上是“基于接口的编程＋策略模式＋配置文件”组合实现的动态加载机制。
+Java SPI就是提供这样的一个机制：为某个接口寻找服务实现的机制。就是将装配的控制权移到程序之外，在模块化设计中这个机制尤其重要。所以SPI的核心思想就是解耦。
+</code></pre><h4 id="SPI用法及实现"><a href="#SPI用法及实现" class="headerlink" title="SPI用法及实现"></a>SPI用法及实现</h4><pre><code>要使用Java SPI，需要遵循如下约定：
+1、当服务提供者提供了接口的一种具体实现后，在jar包的META-INF/services目录下创建一个以“接口全限定名”为命名的文件，内容为实现类的全限定名；
+2、接口实现类所在的jar包放在主程序的classpath中；
+3、主程序通过java.util.ServiceLoader动态装载实现模块，它通过扫描META-INF/services目录下的配置文件找到实现类的全限定名，把类加载到JVM；
+4、SPI的实现类必须携带一个不带参数的构造方法；
+</code></pre><h4 id="SPI在dubbo中应用"><a href="#SPI在dubbo中应用" class="headerlink" title="SPI在dubbo中应用"></a>SPI在dubbo中应用</h4><pre><code>Java SPI的使用很简单。也做到了基本的加载扩展点的功能。但Java SPI有以下的不足:
+需要遍历所有的实现，并实例化，然后我们在循环中才能找到我们需要的实现。
+配置文件中只是简单的列出了所有的扩展实现，而没有给他们命名。导致在程序中很难去准确的引用它们。
+扩展如果依赖其他的扩展，做不到自动注入和装配
+不提供类似于Spring的IOC和AOP功能
+扩展很难和其他的框架集成，比如扩展里面依赖了一个Spring bean，原生的Java SPI不支持
+</code></pre><p>参考：<a href="http://dubbo.apache.org/zh-cn/blog/introduction-to-dubbo-spi.html" target="_blank" rel="noopener">http://dubbo.apache.org/zh-cn/blog/introduction-to-dubbo-spi.html</a><br>代码实现： <a href="https://github.com/vangoleo/dubbo-spi-demo" target="_blank" rel="noopener">https://github.com/vangoleo/dubbo-spi-demo</a></p>
 
-        <div class="article-info info-on-right">
-          
-          
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -372,55 +232,113 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/05/13/dubbo/2019-05-13-dubbo SPI扩展点/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/09/dubbo/2019-05-09-dubbo阅读准备/" class="archive-article-date">
-  	<time datetime="2019-05-09T05:05:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-09</time>
-</a>
+<nav id="article-nav">
+  
+    <a href="/2019/05/14/java/2019-05-14-gc新生代晋升老年代总结/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          gc过程新生代晋升老年代总结！
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/05/09/dubbo/2019-05-09-dubbo阅读准备/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">dubbo 阅读准备！</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/09/dubbo/2019-05-09-dubbo阅读准备/">dubbo 阅读准备！</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/dubbo//" class="article-tag-list-link color1">dubbo</a>
-        		</li>
-      		
-		</ul>
-	</div>
+        
+        
+    </div>
+</aside>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+
   
   
-    </div></section>
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -443,8 +361,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
